@@ -40,7 +40,7 @@ const App = () => {
       <div className="container">
         <NotesHeader setDarkMode={setDarkMode} />
         <SearchBar setSearchText={setSearchText} />
-        <NotesList addNote={addNote} deleteNote={deleteNote} notesArray={notesArray.filter((note) => note.text.toLowerCase().includes(searchText))} />
+        <NotesList addNote={addNote} deleteNote={deleteNote} notesArray={notesArray.filter((note) => note.text.toLowerCase().includes(searchText.toLowerCase()))} />
       </div>
     </div>
   )
