@@ -15,7 +15,7 @@ const App = () => {
 
   useEffect(() => {
     const savedNotes = JSON.parse(localStorage.getItem('REACT_NOTES_APP_DATA'))
-    if(savedNotes.length){
+    if(savedNotes && savedNotes.length){
       setNotesArray(savedNotes)
     }
   }, [])
