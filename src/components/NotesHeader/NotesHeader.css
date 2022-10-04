@@ -1,0 +1,14 @@
+.toggle-mode{
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
